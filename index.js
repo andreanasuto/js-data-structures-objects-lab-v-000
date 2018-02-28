@@ -4,7 +4,7 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  console.log(driver)
+  const newdriver = {...driver}
   driver[key] = value
   console.log('this is a value added:',value)
   return driver
